@@ -1,3 +1,4 @@
-FROM quay.io/cfarquhar/docker-base:20191202a
+#FROM quay.io/cfarquhar/docker-base:20191202a
+FROM docker-base-local:latest
 
-RUN echo 20191202b > /root/newid
+RUN echo latest-20191203a > /root/newid
